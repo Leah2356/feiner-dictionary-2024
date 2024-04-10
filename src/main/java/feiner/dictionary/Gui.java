@@ -41,7 +41,7 @@ public class Gui extends JFrame {
             List<String> definitions = dictionary.getDefinition(word);
             if (definitions != null && !definitions.isEmpty()) {
                 for (String d : definitions) {
-                    definitionsArea.append(d+ "\n");
+                    definitionsArea.append(d + "\n");
                 }
             } else {
                 definitionsArea.setText("No definitions found.");
