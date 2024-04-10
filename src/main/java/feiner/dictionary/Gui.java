@@ -6,12 +6,12 @@ import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 import java.util.List;
 
-public class GUI extends JFrame {
+public class Gui extends JFrame {
     private EnglishDictionary dictionary;
     private JTextField inputField;
     private JTextArea definitionsArea;
 
-    public GUI() {
+    public Gui() {
         setTitle("English Dictionary");
         setSize(800, 800);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -50,7 +50,7 @@ public class GUI extends JFrame {
     }
 
     public static void main(String[] args) {
-            GUI frame = new GUI();
+            Gui frame = new Gui();
             frame.setVisible(true);
         }
     }
